@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pinterest OAuth Callback</title>
+  <style>body{font:14px/1.5 system-ui,apple-system,sans-serif;padding:24px;}</style>
+</head>
+<body>
+  <h1>Authenticating…</h1>
+  <pre id="out"></pre>
+  <script>
+    // 1) Parse query params
+    const params = new URLSearchParams(location.search);
+    const code = params.get('code');
+    const state = params.get('state');
+    const error = params.get('error');
+
+    // 2) Basic state check (replace with your stored state)
+    const expectedState = sessionStorage.getItem('oauth_state');
+    const stateOK = !expectedState || expectedState === state;
+
+    // 3) Show results
+    const out = document.getElementById('out');
+    out.textContent = JSON.stringify({ code, state, stateOK, error }, null, 2);
+
+    // 4) Option A: postMessage to opener (if popup/child window)
+    try {
+      window.opener && window.opener.postMessage({provider:'pinterest', code, state, error}, '*');
+    } catch(e) {}
+
+    // 5) Option B: send to your backend/n8n webhook to exchange code -> token
+    // fetch('https://comeit77.app.n8n.cloud/webhook/pinterest_oauth', {
+    //   method: 'POST', headers: { 'Content-Type': 'application/json' },
+    //   body: JSON.stringify({ code, state })
+    // }).then(()=> location.replace('/success.html'))
+    //   .catch(()=> location.replace('/error.html'));
+  </script>
+</body>
+</html>
