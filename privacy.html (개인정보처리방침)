@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>개인정보처리방침 — Hye Sung Kang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Hye Sung Kang">
+  <meta name="description" content="Hye Sung Kang의 개인정보처리방침">
+  <meta property="og:title" content="개인정보처리방침 — Hye Sung Kang">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ko_KR">
+  <style>
+    body{font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif; margin:24px; color:#111; max-width:880px}
+    h1,h2{line-height:1.25}
+    a{color:#0b5fff; text-decoration:none}
+    a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <h1>개인정보처리방침</h1>
+  <p><strong>운영 주체: Hye Sung Kang</strong></p>
+  <p>본 방침은 Hye Sung Kang이 운영하는 서비스(이하 “서비스”)에 적용됩니다.</p>
+
+  <h2>1. 수집하는 개인정보 항목</h2>
+  <ul>
+    <li>서비스 이용 과정에서 자동 수집: 접속기록, 쿠키, 사용 로그, 제휴 링크 클릭 데이터(익명·집계)</li>
+    <li>선택 입력: 문의 시 이메일 주소 등</li>
+  </ul>
+
+  <h2>2. 개인정보의 처리 목적</h2>
+  <ul>
+    <li>콘텐츠 및 서비스 제공, 성능 개선</li>
+    <li>제휴 성과 분석 및 정산</li>
+    <li>문의 응대 및 민원 처리</li>
+  </ul>
+
+  <h2>3. 보유 및 이용기간</h2>
+  <p>법령에 특별한 규정이 없는 한, 처리 목적 달성 시 지체 없이 파기합니다. 관련 법령상 보존이 필요한 경우 해당 기간 동안 보관합니다.</p>
+
+  <h2>4. 제3자 제공 및 처리위탁</h2>
+  <p>원칙적으로 제3자에게 제공하지 않습니다. 제공 또는 위탁이 필요한 경우 사전 고지 및 동의를 받은 후 진행합니다.</p>
+
+  <h2>5. 정보주체의 권리 및 행사 방법</h2>
+  <p>정보주체는 개인정보 열람, 정정, 삭제, 처리정지 요구를 할 수 있습니다. 아래 연락처로 요청해 주세요.</p>
+
+  <h2>6. 쿠키의 사용 및 거부</h2>
+  <p>분석과 성과 측정 목적의 쿠키를 사용할 수 있습니다. 브라우저 설정에서 쿠키 저장을 거부할 수 있습니다.</p>
+
+  <h2>7. 문의처</h2>
+  <p>이메일: <a href="mailto:hyesung0917@gmail.com">hyesung0917@gmail.com</a></p>
+
+  <p>최종 업데이트: <time>2025-10-16</time></p>
+  <p><a href="./index.html">← 돌아가기</a></p>
+</body>
+</html>
