@@ -1,42 +1,183 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8">
-  <title>Hye Sung Kang — 공식 안내</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Hye Sung Kang">
-  <meta property="og:title" content="Hye Sung Kang — 공식 안내">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="ko_KR">
-  <meta name="description" content="Hye Sung Kang의 공식 안내 페이지입니다. 개인정보처리방침과 사용자 데이터 삭제 안내를 확인하실 수 있습니다.">
-  <style>
-    body{font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif; margin:0; color:#111}
-    header, footer{padding:16px 20px; background:#f7f7f7}
-    main{padding:24px 20px; max-width:880px; margin:0 auto}
-    a{color:#0b5fff; text-decoration:none}
-    a:hover{text-decoration:underline}
-    .links a{display:block; margin:8px 0}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="COME!T - Creativity & Design Consultancy based in Seoul, Korea">
+    <meta property="og:title" content="COME!T - Creativity & Design">
+    <meta property="og:description" content="Creative solutions and design consultancy services">
+    <meta property="og:url" content="https://musead.github.io/comeit.html">
+    <title>COME!T - Creativity & Design Consultancy</title>
+    <link rel="canonical" href="https://musead.github.io/comeit.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 800px;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+        }
+        
+        .tagline {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        
+        main {
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .coming-soon {
+            font-size: 2rem;
+            color: #667eea;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .description {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 40px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .footer-content {
+            text-align: center;
+        }
+        
+        .business-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        
+        .contact-info {
+            font-size: 1rem;
+            color: #666;
+            line-height: 2;
+        }
+        
+        .contact-info strong {
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .address-line {
+            margin: 5px 0;
+        }
+        
+        .divider {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            margin: 20px auto;
+            border-radius: 2px;
+        }
+        
+        .copyright {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #999;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .tagline {
+                font-size: 1.1rem;
+            }
+            
+            .coming-soon {
+                font-size: 1.5rem;
+            }
+            
+            header, main, footer {
+                padding: 40px 25px;
+            }
+            
+            .contact-info {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
 </head>
 <body>
-<header>
-  <strong>운영 주체: Hye Sung Kang</strong>
-</header>
-<main>
-  <h1>Hye Sung Kang — 공식 안내</h1>
-  <p>본 사이트는 Meta 등 외부 플랫폼 앱 심사 제출을 위한 공개 문서 허브입니다.</p>
-
-  <div class="links">
-    <a href="./privacy.html">개인정보처리방침</a>
-    <a href="./data-deletion.html">사용자 데이터 삭제 안내</a>
-  </div>
-
-  <h2>연락처</h2>
-  <p>문의 이메일: <a href="mailto:hyesung0917@gmail.com">hyesung0917@gmail.com</a></p>
-</main>
-<footer>
-  © <span id="y"></span> Hye Sung Kang
-</footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+    <div class="container">
+        <header>
+            <h1>COME!T</h1>
+            <div class="tagline">Creativity & Design Consultancy</div>
+        </header>
+        
+        <main>
+            <div class="coming-soon">Coming Soon</div>
+            <div class="description">
+                We are preparing something amazing.<br>
+                Stay tuned for our creative solutions.
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="business-name">COME!T</div>
+                <div class="divider"></div>
+                <div class="contact-info">
+                    <strong>Business Address</strong><br>
+                    <div class="address-line">2F 50-2 Dosan-daero 99-gil</div>
+                    <div class="address-line">Gangnam-gu, Seoul 06011</div>
+                    <div class="address-line">Republic of Korea</div>
+                </div>
+                <div class="copyright">
+                    © 2025 COME!T. All rights reserved.
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
